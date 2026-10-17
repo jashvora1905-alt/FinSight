@@ -1,0 +1,4 @@
+# Install from the repository root: python -m pip install -r analytics/requirements.txt
+numpy>=1.26,<3
+pandas>=2.2,<3
+pytest>=8,<10
