@@ -1,0 +1,3 @@
+transaction_id,portfolio_id,date,symbol,transaction_type,quantity,price
+T001,P001,2024-01-10,TCS,BUY,10,3300
+T002,P002,2024-01-11,INFY,BUY,10,1400
