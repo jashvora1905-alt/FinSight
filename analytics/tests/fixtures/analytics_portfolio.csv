@@ -1,8 +1,0 @@
-portfolio_id,symbol,company_name,asset_type,sector,quantity,average_buy_price,current_price
-P001,RELIANCE,Reliance Industries,Equity,Energy,10,2400,2650
-P001,TCS,Tata Consultancy Services,Equity,IT,5,3500,4100
-P001,INFY,Infosys,Equity,IT,8,1500,1650
-P002,HDFCBANK,HDFC Bank,Equity,Banking,20,1600,1500
-P002,NIFTYBEES,Nippon India Nifty 50 BeES,ETF,Index,100,250,270
-P002,SGBAUG30,Sovereign Gold Bond 2030,Gold,Commodity,5,6000,7200
-P002,ITC,ITC Ltd,Equity,FMCG,100,450,400
