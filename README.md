@@ -207,11 +207,13 @@ Users can upload portfolio data using a CSV file.
 Example:
 
 ```csv
-Symbol,Company,Quantity,Buy Price,Current Price
-RELIANCE,Reliance Industries,10,2400,2650
-TCS,Tata Consultancy Services,5,3500,4100
-INFY,Infosys,8,1500,1650
+portfolio_id,symbol,company_name,asset_type,sector,quantity,average_buy_price,current_price
+P001,RELIANCE,Reliance Industries,Equity,Energy,10,2400,2650
+P001,TCS,Tata Consultancy Services,Equity,IT,5,3500,4100
+P001,INFY,Infosys,Equity,IT,8,1500,1650
 ```
+
+See [Data Structure](#-data-structure) and `docs/data_dictionary.md` for all columns and rules.
 
 The backend processes the uploaded data and sends it to the relevant analytical modules.
 
@@ -327,7 +329,11 @@ The Portfolio Health Score combines multiple analytical dimensions into a single
             Portfolio Health Score
 ```
 
-The scoring methodology will be defined and documented during development.
+Each dimension is scored from 0 to 100 (higher is healthier) from the outputs of the Analytics, Risk and Behaviour engines and combined with documented weights
+(Risk 35%, Diversification 25%, Behaviour 25%, Performance 15%). When a dimension cannot be measured (for example no transaction history), the remaining weights are
+rescaled and the score is flagged as provisional. Each score comes with an explanation of what lowered it.
+
+Full formula, sources, validation and limitations: [`docs/health_score_methodology.md`](docs/health_score_methodology.md). The score is informational and not financial advice.
 
 ---
 
@@ -1385,13 +1391,13 @@ Future versions could monitor portfolio changes and provide updated analytical s
 | GitHub Repository | Entire Team | 🟢 Completed |
 | README | Entire Team | 🟢 Completed |
 | Frontend | Ricky | 🔴 Not Started |
-| Backend | Jash | 🔴 Not Started |
-| Portfolio Analytics | Aditya | 🔴 Not Started |
-| Risk Engine | Soumil | 🔴 Not Started |
-| Behaviour Engine | Prisha | 🔴 Not Started |
+| Backend (API, database, Health Score) | Jash | 🟡 In Progress (built, in review) |
+| Portfolio Analytics | Aditya | 🟡 In Progress (delivered, in review) |
+| Risk Engine | Soumil | 🟡 In Progress (delivered, in review) |
+| Behaviour Engine | Prisha | 🟡 In Progress (delivered, in review) |
 | AI Engine | Rayyan | 🔴 Not Started |
-| Data & Testing | Atharva | 🔴 Not Started |
-| Integration | Entire Team | 🔴 Not Started |
+| Data & Testing | Atharva | 🟡 In Progress |
+| Integration | Entire Team | 🟡 In Progress |
 | Final Prototype | Entire Team | 🔴 Not Started |
 
 ### Status Legend
