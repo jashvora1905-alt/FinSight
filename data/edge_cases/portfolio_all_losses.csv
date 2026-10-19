@@ -1,0 +1,3 @@
+portfolio_id,symbol,company_name,asset_type,sector,quantity,average_buy_price,current_price
+P001,PAYTM,One97 Communications,Equity,Fintech,40,980.0,720.15
+P001,TATAMOTORS,Tata Motors,Equity,Auto,80,900.0,720.8

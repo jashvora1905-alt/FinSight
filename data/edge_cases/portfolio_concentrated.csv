@@ -1,0 +1,4 @@
+portfolio_id,symbol,company_name,asset_type,sector,quantity,average_buy_price,current_price
+P001,RELIANCE,Reliance Industries,Equity,Energy,400,2450.0,2890.5
+P001,ITC,ITC Ltd,Equity,FMCG,20,380.0,470.3
+P001,GOLDBEES,Nippon India Gold ETF,ETF,Commodities,50,42.0,58.9

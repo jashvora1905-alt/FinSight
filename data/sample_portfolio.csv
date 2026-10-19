@@ -1,0 +1,13 @@
+portfolio_id,symbol,company_name,asset_type,sector,quantity,average_buy_price,current_price
+P001,RELIANCE,Reliance Industries,Equity,Energy,40,2450.0,2890.5
+P001,TCS,Tata Consultancy Services,Equity,IT,25,3300.0,3650.25
+P001,INFY,Infosys,Equity,IT,50,1425.0,1580.75
+P001,HDFCBANK,HDFC Bank,Equity,Financials,60,1580.0,1710.4
+P001,ICICIBANK,ICICI Bank,Equity,Financials,70,957.14,1245.6
+P001,ITC,ITC Ltd,Equity,FMCG,150,380.0,470.3
+P001,SUNPHARMA,Sun Pharma,Equity,Healthcare,30,1050.0,1620.0
+P001,TATAMOTORS,Tata Motors,Equity,Auto,80,640.0,720.8
+P001,PAYTM,One97 Communications,Equity,Fintech,40,975.0,720.15
+P001,NIFTYBEES,Nippon India Nifty 50 ETF,ETF,Diversified,200,210.0,265.4
+P001,GOLDBEES,Nippon India Gold ETF,ETF,Commodities,300,42.0,58.9
+P001,HDFCLIQUID,HDFC Liquid Fund,Mutual Fund,Debt,100,4200.0,4385.0

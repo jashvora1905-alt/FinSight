@@ -1,0 +1,2 @@
+portfolio_id,symbol,company_name,asset_type,sector,quantity,average_buy_price,current_price
+P001,TCS,TCS,Equity,IT,-5,3300.0,3650.25
